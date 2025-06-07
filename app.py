@@ -28,7 +28,6 @@ MAX_RESULTS = 10  # Increased to get more context
 load_dotenv()
 MAX_CONTEXT_CHUNKS = 4  # Increased number of chunks per source
 API_KEY = os.getenv("API_KEY")  # Get API key from environment variable
-
 # Models
 class QueryRequest(BaseModel):
     question: str
